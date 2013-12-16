@@ -86,7 +86,9 @@ class Util_CliCommand {
     }
 
     private function getArguments() {
+
         global $argv;
+
         array_shift($argv);
         $out = array();
         foreach ($argv as $arg) {
